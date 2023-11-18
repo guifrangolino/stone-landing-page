@@ -2,11 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: rgb(0, 168, 104);
+  --primary-hover-color: rgb(0, 115, 77);
+  --background-color: rgb(255, 255, 255);
+  --background2-color: rgb(229, 231, 235);
+  --background3-color: rgb(247, 250, 253);
+  --background4-color: rgb(239, 244, 248);
+  --span-color: rgb(66, 236, 154);
+  --border-color: rgba(230, 236, 242);
+  --color-dark-gray: rgb(32, 37, 42);
+  --color-gray: rgb(103, 112, 125);
+  --btn-border-color: rgba(188, 200, 214);
+  --btn-hover-background-color: rgb(232, 254, 243);
+  --btn-secondary-hover-background-color: rgb(0, 142, 90);
+  --menu-mobile-background: rgba(32, 37, 42, 0.5);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sharon Sans', sans-serif;
+  font-family: "Sharon Sans", sans-serif;
+  scroll-behavior: smooth;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,111 +33,115 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  background: lightgray;
+}
+
 /* Sharon Sans Fonts */
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Light.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Light.otf")
+    format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-LightItalic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-LightItalic.otf")
+    format("opentype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Regular.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Regular.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Italic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Italic.otf")
+    format("opentype");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Medium.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-Medium.otf")
+    format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-MediumItalic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951258/fonts/site-stone/SharonSans/SharonSans-MediumItalic.otf")
+    format("opentype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Bold.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Bold.otf")
+    format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BoldItalic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BoldItalic.otf")
+    format("opentype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Bold.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Bold.otf")
+    format("opentype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BoldItalic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BoldItalic.otf")
+    format("opentype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Black.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-Black.otf")
+    format("opentype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Sans';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BlackItalic.otf')
-    format('opentype');
+  font-family: "Sharon Sans";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonSans/SharonSans-BlackItalic.otf")
+    format("opentype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -128,9 +150,9 @@
 /* Sharon Serif Fonts */
 
 @font-face {
-  font-family: 'Sharon Serif';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951259/fonts/site-stone/SharonSerifItalic/SharonSerif-BoldItalic.otf')
-    format('opentype');
+  font-family: "Sharon Serif";
+  src: url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951259/fonts/site-stone/SharonSerifItalic/SharonSerif-BoldItalic.otf")
+    format("opentype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -139,55 +161,60 @@
 /* Sharon Display Fonts */
 
 @font-face {
-  font-family: 'Sharon Display';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Light.woff2')
-      format('woff2'),
-    url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Light.woff')
-      format('woff');
+  font-family: "Sharon Display";
+  src:
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Light.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Light.woff")
+      format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Display';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Regular.woff2')
-      format('woff2'),
-    url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Regular.woff')
-      format('woff');
+  font-family: "Sharon Display";
+  src:
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Regular.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Regular.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Display';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Medium.woff2')
-      format('woff2'),
-    url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Medium.woff')
-      format('woff');
+  font-family: "Sharon Display";
+  src:
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Medium.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Medium.woff")
+      format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Display';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Bold.woff2')
-      format('woff2'),
-    url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Bold.woff')
-      format('woff');
+  font-family: "Sharon Display";
+  src:
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Bold.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951256/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Bold.woff")
+      format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Sharon Display';
-  src: url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Black.woff2')
-      format('woff2'),
-    url('https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Black.woff')
-      format('woff');
+  font-family: "Sharon Display";
+  src:
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF2/SharonDisplay-Black.woff2")
+      format("woff2"),
+    url("https://res.cloudinary.com/dunz5zfpt/raw/upload/v1672951257/fonts/site-stone/SharonDisplay/WEB/WOFF/SharonDisplay-Black.woff")
+      format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
