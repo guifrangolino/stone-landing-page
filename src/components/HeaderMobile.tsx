@@ -91,7 +91,7 @@ export function HeaderMobile() {
       <div
         className={`absolute right-0 top-[64px] ${
           isMenuMobileOpen ? "visible opacity-100" : "invisible opacity-0"
-        } h-[calc(100vh-64px)] w-full flex-col overflow-x-hidden bg-menu-mobile-background transition-all duration-700`}
+        } h-[calc(100svh-64px)] w-full flex-col overflow-x-hidden bg-menu-mobile-background transition-all duration-700`}
       >
         <div
           className={`ml-auto flex h-full w-full max-w-[500px] flex-col overflow-x-auto bg-white ${
