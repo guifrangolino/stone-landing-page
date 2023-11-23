@@ -21,6 +21,7 @@ export default {
         "background4-color": "var(--background4-color)",
         "span-color": "var(--span-color)",
         "border-color": "var(--border-color)",
+        "border-hover-color": "var(--border-hover-color)",
         "color-dark-gray": "var(--color-dark-gray)",
         "color-gray": "var(--color-gray)",
         "btn-border-color": "var(--btn-border-color)",
