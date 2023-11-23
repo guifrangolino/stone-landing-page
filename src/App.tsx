@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { HeroBanner } from "./components/HeroBanner";
+import { PageSectionLinks } from "./components/PageSectionLinks";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <HeroBanner />
+        <PageSectionLinks />
       </main>
     </>
   );
