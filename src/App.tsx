@@ -1,31 +1,13 @@
 import { Header } from "./components/Header";
+import { HeroBanner } from "./components/HeroBanner";
 
 function App() {
   return (
     <>
       <Header />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
-      <br />
-      <br />
-      <h1 className="text-green-500">Stone Landing Page</h1>
+      <main>
+        <HeroBanner />
+      </main>
     </>
   );
 }

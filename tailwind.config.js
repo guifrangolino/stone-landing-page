@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-full":
+          "linear-gradient(90deg,rgba(0,64,51,.9) 13.41%,rgba(0,89,64,.1) 42.61%,rgba(0,90,64,.2) 92.86%)",
+        "hero-tablet":
+          "linear-gradient(90deg,#014638 2.08%,rgba(1,70,56,.5) 29.53%,rgba(1,70,56,.1) 44.97%,rgba(1,70,56,0) 68.96%)",
+        "hero-mobile": "linear-gradient(0deg,#004537 48%,rgba(2,68,54,0) 62%)",
+        "hero-mobile-break":
+          "linear-gradient(0deg,#004537 59%,rgba(2,68,54,0) 72%)",
+      },
       colors: {
         "primary-color": "var(--primary-color)",
         "primary-hover-color": "var(--primary-hover-color)",
@@ -32,6 +41,7 @@ export default {
       },
       screens: {
         "2sm": "478px",
+        533: "533px",
       },
     },
   },
