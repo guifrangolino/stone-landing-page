@@ -41,8 +41,13 @@ export default {
         "sharon-display": ["Sharon Display", "ui-sans-serif", "system-ui"],
       },
       screens: {
+        "3sm": "445px",
         "2sm": "478px",
         533: "533px",
+      },
+      aspectRatio: {
+        1: "1",
+        2: "2",
       },
     },
   },
