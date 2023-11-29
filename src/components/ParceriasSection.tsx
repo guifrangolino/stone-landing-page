@@ -5,7 +5,7 @@ import levisMelissa from "../assets/companiesLogos/logo-melissa.webp";
 import levisMiniso from "../assets/companiesLogos/logo-miniso.webp";
 import levisJulietto from "../assets/companiesLogos/logo-julietto.webp";
 
-export function PartnershipsSection() {
+export function ParceriasSection() {
   return (
     <div className="flex w-full justify-center px-6">
       <div className="flex w-full max-w-7xl flex-col items-center justify-center gap-6 pb-10 pt-10 lg:pb-20">

@@ -1,7 +1,7 @@
 import { Header } from "./components/Header";
 import { HeroBanner } from "./components/HeroBanner";
 import { PageSectionLinks } from "./components/PageSectionLinks";
-import { PartnershipsSection } from "./components/PartnershipsSection";
+import { ParceriasSection } from "./components/ParceriasSection";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <main>
         <HeroBanner />
         <PageSectionLinks />
-        <PartnershipsSection />
+        <ParceriasSection />
       </main>
     </>
   );
