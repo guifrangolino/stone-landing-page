@@ -24,7 +24,9 @@ export function Button(props: ButtonProps) {
         large ? "h-14" : "h-12"
       } items-center rounded-[32px] hover:shadow-btn ${
         secondary ? null : "border"
-      } ${large ? "px-6" : "px-4"} ${className ?? null} justify-center`}
+      } ${large ? "px-6" : "px-4"} ${
+        className ?? null
+      } justify-center leading-none`}
       {...rest}
     >
       {props.children}
