@@ -4,6 +4,7 @@ import { MenosCustoSection } from "./components/MenosCustoSection";
 import { Numero1EmAtendimento } from "./components/Numero1EmAtendimento";
 import { PageSectionLinks } from "./components/PageSectionLinks";
 import { ParceriasSection } from "./components/ParceriasSection";
+import { TotalmenteIntegradoSection } from "./components/TotalmenteIntegradoSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ParceriasSection />
         <MenosCustoSection />
         <Numero1EmAtendimento />
+        <TotalmenteIntegradoSection />
       </main>
     </>
   );
