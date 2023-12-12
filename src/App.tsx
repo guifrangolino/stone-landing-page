@@ -1,3 +1,4 @@
+import { FormasDePagamento } from "./components/FormasDePagamento";
 import { Header } from "./components/Header";
 import { HeroBanner } from "./components/HeroBanner";
 import { MenosCustoSection } from "./components/MenosCustoSection";
@@ -17,6 +18,7 @@ function App() {
         <MenosCustoSection />
         <Numero1EmAtendimento />
         <TotalmenteIntegradoSection />
+        <FormasDePagamento />
       </main>
     </>
   );
