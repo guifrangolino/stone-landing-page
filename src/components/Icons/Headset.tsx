@@ -1,7 +1,7 @@
 export function Headset() {
   return (
     <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#call_svg__a)">
+      <g clipPath="url(#call_svg__a)">
         <path
           d="M6.737 14.013v-1.788c0-4.854 3.985-8.806 8.881-8.806h1.796c4.898 0 8.882 3.952 8.882 8.806v1.788h1.836v-1.788c0-5.86-4.808-10.625-10.718-10.625h-1.796c-5.91 0-10.717 4.765-10.717 10.625v1.788h1.836Z"
           fill="#1D1D1B"
