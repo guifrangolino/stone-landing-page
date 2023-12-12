@@ -36,7 +36,7 @@ export function MenosCustoSection() {
             Seja Stone
           </Button>
         </div>
-        <picture className="max-w-[368px] md:max-w-[600px] lg:max-w-none">
+        <picture className="max-w-[320px] md:max-w-[600px] lg:max-w-none">
           <img
             src={menosCustoImg}
             alt="Maquininha de Cartão Stone, Aplicativo Stone e Cartão Stone."
