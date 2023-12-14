@@ -25,7 +25,7 @@ import bpf from "../assets/bandeiras/creditoDebitoOutros/bpf.webp";
 import applePay from "../assets/bandeiras/creditoDebitoOutros/applePay.webp";
 import googlePay from "../assets/bandeiras/creditoDebitoOutros/googlePay.webp";
 import samsungPay from "../assets/bandeiras/creditoDebitoOutros/samsungPay.webp";
-import pix from "../assets/bandeiras/creditoDebitoOutros/pix.webp";
+import pix from "../assets/bandeiras/creditoDebitoOutros/Pix.webp";
 
 export function FormasDePagamentoBandeirasCreditoDebitoOutros() {
   return (
