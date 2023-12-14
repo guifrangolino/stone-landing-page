@@ -2,6 +2,7 @@ import { BeStone } from "./components/BeStone";
 import { FormasDePagamento } from "./components/FormasDePagamento";
 import { Header } from "./components/Header";
 import { HeroBanner } from "./components/HeroBanner";
+import { LinksInternos } from "./components/LinksInternos";
 import { MenosCustoSection } from "./components/MenosCustoSection";
 import { Numero1EmAtendimento } from "./components/Numero1EmAtendimento";
 import { PageSectionLinks } from "./components/PageSectionLinks";
@@ -23,6 +24,7 @@ function App() {
         <FormasDePagamento />
         <TestimonialMaquinaDeCartao />
         <BeStone />
+        <LinksInternos />
       </main>
     </>
   );
