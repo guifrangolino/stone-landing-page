@@ -5,7 +5,7 @@ import amex from "../assets/bandeiras/creditoDebitoOutros/amex.webp";
 import hipercard from "../assets/bandeiras/creditoDebitoOutros/hipercard.webp";
 import hiper from "../assets/bandeiras/creditoDebitoOutros/hiper.webp";
 import cabal from "../assets/bandeiras/creditoDebitoOutros/cabal.webp";
-import unionPay from "../assets/bandeiras/creditoDebitoOutros/unionPay.webp";
+import unionPay from "../assets/bandeiras/creditoDebitoOutros/unionpay.webp";
 import banes from "../assets/bandeiras/creditoDebitoOutros/banes.webp";
 import up from "../assets/bandeiras/creditoDebitoOutros/up.webp";
 import verde from "../assets/bandeiras/creditoDebitoOutros/verde.webp";
