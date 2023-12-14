@@ -19,6 +19,7 @@ export default {
         "background2-color": "var(--background2-color)",
         "background3-color": "var(--background3-color)",
         "background4-color": "var(--background4-color)",
+        "background5-color": "var(--background5-color)",
         "span-color": "var(--span-color)",
         "border-color": "var(--border-color)",
         "border-hover-color": "var(--border-hover-color)",
