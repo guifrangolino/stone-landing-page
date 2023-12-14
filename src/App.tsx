@@ -5,6 +5,7 @@ import { MenosCustoSection } from "./components/MenosCustoSection";
 import { Numero1EmAtendimento } from "./components/Numero1EmAtendimento";
 import { PageSectionLinks } from "./components/PageSectionLinks";
 import { ParceriasSection } from "./components/ParceriasSection";
+import { TestimonialMaquinaDeCartao } from "./components/TestimonialMaquinaDeCartao";
 import { TotalmenteIntegradoSection } from "./components/TotalmenteIntegradoSection";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Numero1EmAtendimento />
         <TotalmenteIntegradoSection />
         <FormasDePagamento />
+        <TestimonialMaquinaDeCartao />
       </main>
     </>
   );
