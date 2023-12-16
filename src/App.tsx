@@ -1,4 +1,5 @@
 import { BeStone } from "./components/BeStone";
+import { Footer } from "./components/Footer";
 import { FormasDePagamento } from "./components/FormasDePagamento";
 import { Header } from "./components/Header";
 import { HeroBanner } from "./components/HeroBanner";
@@ -26,6 +27,7 @@ function App() {
         <BeStone />
         <LinksInternos />
       </main>
+      <Footer />
     </>
   );
 }
