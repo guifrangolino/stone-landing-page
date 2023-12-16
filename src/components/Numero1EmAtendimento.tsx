@@ -8,7 +8,7 @@ import { QualitySeal } from "../components/Icons/QualitySeal";
 
 export function Numero1EmAtendimento() {
   return (
-    <section>
+    <section id="numero-1-em-atendimento">
       <picture className="relative flex h-[213px] w-full md:h-[395px] lg:h-[466px]">
         <img
           src={greenAngels}

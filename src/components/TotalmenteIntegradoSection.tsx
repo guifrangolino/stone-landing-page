@@ -20,7 +20,10 @@ export function TotalmenteIntegradoSection() {
   }
 
   return (
-    <section className="my-10 flex flex-col items-center justify-center md:my-32 lg:mx-6 xl:mx-0">
+    <section
+      id="totalmente-integrado"
+      className="my-10 flex flex-col items-center justify-center md:my-32 lg:mx-6 xl:mx-0"
+    >
       <h2 className="mx-6 mb-4 max-w-[455px] text-center font-sharon-display text-[1.75rem] font-bold leading-10 text-color-dark-gray md:mx-auto md:mb-2 md:max-w-none lg:mx-6 lg:text-[2rem]">
         O único App que você vai precisar
       </h2>

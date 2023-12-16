@@ -49,14 +49,16 @@ export function LinksInternos() {
             <Smartphone fullWidth />
           </div>
           <h6 className="mt-2 font-sharon-display text-xl font-bold text-white">
-            Fale com a gente
+            E-commerce
           </h6>
-          <p className="mt-1 text-white">Seja atendido pelo nosso time</p>
+          <p className="mt-1 text-white">
+            Soluções pra quem já tem loja virtual
+          </p>
           <a
             href="#"
             className="mt-2 flex w-max items-center border-b border-transparent font-semibold text-span-color hover:border-primary-color hover:text-primary-color"
           >
-            <p className="text-base font-semibold text-current">Atendimento</p>
+            <p className="text-base font-semibold text-current">Conheça</p>
             <ArrowRight />
           </a>
         </div>
