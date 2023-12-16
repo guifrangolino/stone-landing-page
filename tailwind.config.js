@@ -30,6 +30,7 @@ export default {
         "btn-secondary-hover-background-color":
           "var(--btn-secondary-hover-background-color)",
         "menu-mobile-background": "var(--menu-mobile-background)",
+        "footer-background": "var(--footer-background)",
       },
       boxShadow: {
         menuItem:
